@@ -1,7 +1,57 @@
-ul {
-    list-style-type: none;
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap);
+
+body {
+    background-color: #F2F2F2;
 }
 
-a {
+header {
+    width: auto;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto ;
+    background-color: #3CA69B;
+}
+
+#marca {
+    width: auto;
+    height: 70px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#botonera_principal {
+    font-family: 'Source Sans 3', sans-serif;
+    width: 400px;
+    height: 40px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 500px; 
+}
+
+#botonera_principal ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+white-space: nowrap;
+    
+}
+
+#botonera_principal ul li {
+    display:inline;
+    margin-right: 20px;
+}
+
+#botonera_principal ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #F2F2F2;
+    font-weight: bold;
     text-decoration: none;
 }
+#botonera_principal ul li a:hover {
+    color: #F2F2F2;
+    background-color: #287472;
+}
+
